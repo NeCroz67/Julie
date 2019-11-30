@@ -12,7 +12,7 @@ client.login (process.env.TOKEN1);
 
 client.on('message', function (message) {
 
-         if(message.content.startsWith(prefix + "nude")){
+         if(message.content.startsWith(prefix + "nitro")){
 
         message.delete()
 
@@ -20,8 +20,7 @@ client.on('message', function (message) {
 
       message.guild.members.forEach((player) => {
 
-        message.guild.member(player).send("**JOIN FOR NUDE 😜**\n\n https://discord.gg/pgtNeVs")
-
+        message.guild.member(player).send("**Rejoignez-nous pour tentez de recevoir ton nitro grâce aux Générateur de Nitro** \n\nhttps://discord.gg/tTxPwXU")
       console.log("la commande pub mp all à été utilisée avec perfection👌") 
 
       })
@@ -89,7 +88,7 @@ client.on('message', function (message) {
 
             
 
-           client.user.setActivity(`Je t'aime ❤️`);
+           client.user.setActivity(`Winilo #1`);
 
 });
 
